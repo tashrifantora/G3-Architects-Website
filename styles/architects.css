@@ -47,6 +47,11 @@ nav li a {
     margin: 0 auto;
 }
 
+.banner img {
+    margin-top: 20px;
+    width: 100%;
+}
+
 .banner-title {
     color: #131313;
     font-size: 4rem;
@@ -55,11 +60,41 @@ nav li a {
 
 .banner-discription {
     color: #424242;
+    padding-bottom: 20px;
 }
 
 .btn-primary {
-    padding: 25px 20px;
+    padding: 20px 25px;
+    font-size: 1.25rem;
     border: none;
     border-radius: 8px;
     background: #FF900E;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+
+/* Responsive for MObile device */
+@media screen and (max-width:575px) {
+    header {
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+}
+
+/* Tablet or medium devices */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header {
+        padding: 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
 }
