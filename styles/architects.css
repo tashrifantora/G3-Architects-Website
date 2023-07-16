@@ -203,6 +203,15 @@ main {
     width: 165px;
 }
 
+/*  Footer section styles*/
+.foooter {
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding: 40px 400px;
+    text-align: center;
+    margin: 130px 240px 216px 240px;
+}
+
 
 
 /* Responsive for MObile device */
@@ -236,12 +245,17 @@ main {
 
     .teams-content,
     .facts-card-container {
-        padding: 20px;
+        padding: 10px;
         padding-right: 20px;
     }
 
     .facts-card-container {
         gap: 20px;
+    }
+
+    .foooter {
+        margin: 0;
+        padding: 0;
     }
 
 }
